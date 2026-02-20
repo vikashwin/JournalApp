@@ -7,6 +7,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 
 //UserDetailsService is a Spring Security interface used to load user-specific data from the database during authentication.
@@ -16,7 +17,7 @@ import org.springframework.stereotype.Component;
 //        Agar match → Login success
 //        Agar not match → Login failed
 
-@Component
+@Service
 public class UserDetailsServiceImpl  implements UserDetailsService {
 
     @Autowired
