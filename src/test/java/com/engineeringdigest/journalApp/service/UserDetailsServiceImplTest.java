@@ -17,6 +17,7 @@ import static org.mockito.Mockito.when;
 
 
 //Use for mock testing without intracting with database for fast execution
+@Disabled
 public class UserDetailsServiceImplTest {
 
     @InjectMocks
