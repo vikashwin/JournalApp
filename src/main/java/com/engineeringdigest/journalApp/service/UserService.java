@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Service
+@Component
 @Slf4j // After that use don't need to make instance of logger
 public class UserService {
 

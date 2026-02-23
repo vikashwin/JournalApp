@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Service
+@Component
 @Slf4j
 public class   JournalEntryService {
 

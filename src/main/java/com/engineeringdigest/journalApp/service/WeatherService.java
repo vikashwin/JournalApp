@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-@Service
+@Component
 public class WeatherService {
 
     @Value("${weather.api.key}")  //Be Careful about syntax

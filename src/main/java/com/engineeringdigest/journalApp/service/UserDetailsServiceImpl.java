@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 //        Agar match → Login success
 //        Agar not match → Login failed
 
-@Service
+@Component
 public class UserDetailsServiceImpl  implements UserDetailsService {
 
     @Autowired
